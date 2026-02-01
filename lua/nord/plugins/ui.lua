@@ -102,6 +102,11 @@ function ui.highlights()
     AerialTypeParameter = { link = "@lsp.type.typeParameter" },
     AerialVariable = { link = "@variable" },
 
+    -- nvim-treesitter/nvim-treesitter-context
+    TreesitterContext = { fg = c.snow_storm.origin, bg = c.polar_night.bright },
+    TreesitterContextLineNumber = { fg = c.polar_night.brightest, bg = c.polar_night.origin },
+    TreesitterContextSeparator = { fg = c.polar_night.brightest, bg = c.polar_night.origin },
+
     -- p00f/nvim-ts-rainbow
     rainbowcol1 = { fg = c.frost.artic_water },
     rainbowcol2 = { fg = c.aurora.green },
