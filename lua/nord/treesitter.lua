@@ -49,7 +49,7 @@ function treesitter.highlights()
     ["@function.method.call"] = { fg = c.frost.ice }, --  method calls
     ["@method.call"] = { link = "@function.method.call" }, -- @deprecated
     ["@constructor"] = { fg = c.frost.ice }, --  constructor calls and definitions
-    ["@variable.parameter"] = { fg = c.frost.ice }, --  parameters of a function
+    ["@variable.parameter"] = { fg = c.snow_storm.origin }, --  parameters of a function
     ["@parameter"] = { link = "@variable.parameter" }, -- @deprecated
 
     -- Keywords
@@ -155,6 +155,10 @@ function treesitter.highlights()
     ["@text.phpdoc"] = { fg = c.polar_night.light },
     ["@attribute.phpdoc"] = { fg = c.frost.artic_water },
     ["@character.printf"] = { fg = c.aurora.yellow },
+    ["@type.python"] = { fg = c.snow_storm.origin },
+    ["@attribute.python"] = { link = "@variable" },
+    ["@punctuation.special.python"] = { fg = c.frost.artic_water },
+    ["@operator.python"] = { link = "@variable" },
 
     -- LSP Semantic Token Groups
     ["@lsp.type.class"] = { link = "@type" },
@@ -168,10 +172,14 @@ function treesitter.highlights()
     ["@lsp.type.method"] = { link = "@method" },
     ["@lsp.type.namespace"] = { link = "@namespace" },
     ["@lsp.type.parameter"] = { link = "@parameter" },
+    ["@lsp.type.selfParameter"] = { link = "@parameter" },
+    ["@lsp.type.decorator"] = { link = "@function.method" },
     ["@lsp.type.property"] = { link = "@property" },
     ["@lsp.type.struct"] = { link = "@structure" },
     ["@lsp.type.typeParameter"] = { link = "@parameter" },
     ["@lsp.type.variable"] = {}, -- use treesitter styles for regular variables
+    ["@lsp.typemod.parameter.definition"] = { link = "@parameter" },
+    ["@lsp.typemod.selfParameter.definition"] = { link = "@parameter" },
     ["@lsp.typemod.method.defaultLibrary"] = { link = "@function.builtin" },
     ["@lsp.typemod.function.defaultLibrary"] = { link = "@function.builtin" },
     ["@lsp.typemod.operator.injected"] = { link = "@operator" },
