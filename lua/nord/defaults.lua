@@ -55,6 +55,7 @@ function defaluts.highlights()
     SpellRare = { fg = c.snow_storm.brightest, bg = global_bg, sp = c.snow_storm.brightest, undercurl = true }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
     StatusLine = { fg = c.snow_storm.origin, bg = c.polar_night.brighter }, -- status line of current window
     StatusLineNC = { fg = c.snow_storm.origin, bg = c.polar_night.brightest }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    StatusLineGit = { fg = c.frost.ice, bg = c.polar_night.brightest },
     User1 = { fg = c.aurora.red, bg = c.polar_night.brighter, bold = true },
     User2 = { fg = c.frost.ice, bg = c.polar_night.brighter, bold = true },
     User3 = { fg = c.snow_storm.origin, bg = c.polar_night.brighter, bold = true },
