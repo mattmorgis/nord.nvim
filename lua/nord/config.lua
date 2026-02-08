@@ -9,7 +9,7 @@ local defaults = {
   errors = { mode = "bg" }, -- [bg|fg|none]
   -- Value is any valid attr-list value for `:help nvim_set_hl`
   styles = {
-    comments = { italic = true },
+    comments = {},
     keywords = {},
     functions = {},
     variables = {},
