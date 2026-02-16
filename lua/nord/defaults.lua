@@ -53,15 +53,15 @@ function defaluts.highlights()
     SpellCap = { sp = c.aurora.yellow, undercurl = true }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal = { sp = c.snow_storm.brighter, undercurl = true }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare = { fg = c.snow_storm.brightest, bg = global_bg, sp = c.snow_storm.brightest, undercurl = true }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
-    StatusLine = { fg = c.snow_storm.origin, bg = c.polar_night.brighter }, -- status line of current window
-    StatusLineNC = { fg = c.snow_storm.origin, bg = c.polar_night.brightest }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
-    StatusLineGit = { fg = c.frost.ice, bg = c.polar_night.brightest },
-    User1 = { fg = c.aurora.red, bg = c.polar_night.brighter, bold = true },
-    User2 = { fg = c.frost.ice, bg = c.polar_night.brighter, bold = true },
-    User3 = { fg = c.snow_storm.origin, bg = c.polar_night.brighter, bold = true },
+    StatusLine = { fg = c.snow_storm.origin, bg = c.polar_night.bright }, -- status line of current window
+    StatusLineNC = { fg = c.snow_storm.origin, bg = c.polar_night.brighter }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    StatusLineGit = { fg = c.frost.ice, bg = c.polar_night.brighter },
+    User1 = { fg = c.aurora.red, bg = c.polar_night.bright, bold = true },
+    User2 = { fg = c.frost.ice, bg = c.polar_night.bright, bold = true },
+    User3 = { fg = c.snow_storm.origin, bg = c.polar_night.bright, bold = true },
     User4 = { fg = c.polar_night.origin, bg = c.aurora.yellow },
-    User5 = { fg = c.aurora.red, bg = c.polar_night.brighter },
-    User6 = { fg = c.aurora.yellow, bg = c.polar_night.brighter },
+    User5 = { fg = c.aurora.red, bg = c.polar_night.bright },
+    User6 = { fg = c.aurora.yellow, bg = c.polar_night.bright },
     User7 = { link = "StatusLine" },
     User8 = { fg = c.polar_night.brighter, bg = c.frost.ice },
     User9 = { link = "StatusLine" },
